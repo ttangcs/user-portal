@@ -1,0 +1,36 @@
+@import "../../styles/_colors";
+
+@font-face {
+  font-family: "SFMono";
+  src: url("../../fonts/SFMono/SFMono-Regular.woff2");
+}
+
+
+html {
+  background-color: #fafaff;
+  font-family: "SFMono";
+}
+
+body {
+  color: #011627;
+}
+
+p {
+  line-height: 2;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 50%;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+}
+
+.content {
+  flex-grow: 1;
+}
+
